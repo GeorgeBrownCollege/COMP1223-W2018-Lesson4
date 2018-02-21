@@ -1,8 +1,24 @@
 
 ul {
-    margin: 30px;
+    padding: 10px;
+    background-color: steelblue;
+    width: 100%;
 }
 
 li {
+    margin: 10px 20px;
     font-size: 40px;
+    display: inline;
+    color: yellow;
+}
+
+ul#car {
+    background-color: white;
+    width: 25%;
+}
+
+ul#car li {
+    display: block;
+    color: black;
+    margin: 10px;
 }
